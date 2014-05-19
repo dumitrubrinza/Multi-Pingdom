@@ -1,0 +1,11 @@
+{
+    "name": "fh-app",
+    "version": "0.1.0",
+    "dependencies": {
+        "fh-nodeapp": "*",
+        "pingdom-api": "*",
+        "express": "<= 2.5.11",
+        "async": "*",
+        "nodemailer": "0.3.29"
+    }
+}

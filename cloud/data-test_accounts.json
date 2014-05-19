@@ -1,0 +1,21 @@
+{
+    "accounts": [{
+        "id": "ops",
+        "name": "Development ops",
+        "user": "dimabrinza@gmail.com",
+        "pass": "Paravoz82",
+        "appkey": "zn2yz8r0omqiquxr4m31f7jjjunn4udn"
+    }, {
+        "id": "support",
+        "name": "Suport",
+        "user": "dumitru.brinza@feedhenry.com",
+        "pass": "Paravoz82",
+        "appkey": "2xnvctxs7i3esg5dtthdtpphb4c8h6d3"
+    }, {
+        "id": "mtm",
+        "name": "Engineering",
+        "user": "dima@brinza.net",
+        "pass": "Paravoz82",
+        "appkey": "4vetz43ejpzxiflpk1mf49zqvmo4viuj"
+    }]
+}

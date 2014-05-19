@@ -1,0 +1,58 @@
+// The following two lines import the default Sencha Touch theme. If you are building
+// a new theme, remove them and the add your own CSS on top of the base CSS (which
+// is already included in your app.json file).
+@import 'sencha-touch/default';
+@import 'sencha-touch/default/all';
+
+// Custom code goes here..
+.arrange1 {
+    margin-bottom: 5px;
+}
+
+.arrange1 > li {
+    display: inline;
+    list-style: none;
+    line-height: 25px; 
+}
+
+.arrange2 > li {
+    display: inline;
+    list-style: none;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+.arrange2 > li > img {
+    border: none;
+    vertical-align: bottom;
+    margin-right: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+.total {
+    float: right;
+    margin-right: 38px;
+}
+
+.x-list .x-list-item-tpl .x-list-disclosure {
+    top: 18px;
+}
+.x-form-fieldset {
+    margin: .2em .2em 1em;
+}
+
+.menuClass {
+    -webkit-box-pack: start !important;
+}
+
+.x-msgbox {
+    border: 0.15em solid #54D019;
+    box-shadow: rgba(250, 60, 0, 1) 0 0.1em 0.5em;
+}
+
+@include icon('exit', 'Q');
+// Examples of using the icon mixin:
+// @include icon('exit');
+// @include icon('arrow-left3');
+@include icon('pause');
+

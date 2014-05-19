@@ -1,0 +1,9 @@
+{
+    "permissions": {
+        "d": ["ops", "support", "mtm"],
+        "c": ["ops", "support"],
+        "e": ["ops"],
+        "f": [],
+        "dumitru.brinza@feedhenry.com": ["ops", "support", "mtm"]
+    }
+}
